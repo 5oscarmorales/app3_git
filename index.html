@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="content-type" content="text/html; utf-8">
+  <title>Dia Mundial de la bicicleta </title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/app2-theme.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+  <script src ="phonegap.js"></script><!--necesario*/-->
+  <script type ="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+ </head>
+<body onLoad="MM_preloadImages('imagenes/bici.jpg','imagenes/bici5.jpg','imagenes/hibrida.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Informacion de la bicicleta</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Banner conmemorativo:</h1>
+    <div>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/bi.png" width="385" height="131">
+    </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2>Historia de la bicicleta</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2>Utilizacion como medio de trasporte</h2>
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2>Tipos de bicicletas</h2> 
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> 5 marcas importantes de bicicletas</h2>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> ¿Por que se celebra el dia mundial de la bicicleta?</h2>
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Bisi.png" width="128" height="128">
+   </div>
+   <h4>Aplicación Tres</h4>
+   <h4>Oscar Morales Peña</h4>
+   
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> Su historia</h1> 
+  </div>
+<div data-role="content" align="center">
+   <div>
+    <h2> En 1861, al francés Ernest Michaux se le ocurrió una original mejora: ubicar los pedales en la rueda delantera. No triunfó porque se necesitaba mucho equilibrio para manejarla, pero la idea de los pedales conectados a la rueda abrió el camino para llegar a la bicicleta tal y como la usamos actualmente. Para resolver el problema de la falta de equilibrio, en 1873, un inventor inglés llamado James Starley propuso una máquina con la rueda delantera mucho más grande que la trasera. En enero de 1887, el norteamericano Thomas Stevens comenzó el primer viaje en bicicleta alrededor del mundo. Partió de San Francisco y no llegaría hasta tres años después. Toda una aventura. </h2>
+    
+    <a 
+        href="http://reciclame.info/calendario-mediomental/dia-mundial-de-la-bicicleta/" target=_self> Ir a la pajina relacionada al tema </a>
+        
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Bisi.png" width="128" height="128">
+   </div>
+   <h4>Aplicación Tres, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Transporte</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.
+
+El uso de la bicicleta está extendido en casi todo el continente europeo. En países como Holanda, Suiza, Alemania, unas zonas de Polonia y en los países nórdicos; se ha convertido en uno de los primordiales medios de transporte. Pasando a Asia, fundamentalmente en China y La India, es la primera forma de transporte.
+
+Actualmente, en el mundo, existen cerca de 800 millones de bicicletas, siendo China el país poseedor de la mayor cantidad de estos vehículos. </div>
+  </div>
+  <div> 
+  <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/app333.jpg" alt="app333" title="app333" id="wows1_0"/></li>
+		<li><img src="data1/images/app444.jpg" alt="app444" title="app444" id="wows1_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/app1111.jpg" alt="jquery slider" title="app1111" id="wows1_2"/></a></li>
+		<li><img src="data1/images/app2222.jpg" alt="app2222" title="app2222" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="app333"><span><img src="data1/tooltips/app333.jpg" alt="app333"/>1</span></a>
+		<a href="#" title="app444"><span><img src="data1/tooltips/app444.jpg" alt="app444"/>2</span></a>
+		<a href="#" title="app1111"><span><img src="data1/tooltips/app1111.jpg" alt="app1111"/>3</span></a>
+		<a href="#" title="app2222"><span><img src="data1/tooltips/app2222.jpg" alt="app2222"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  
+  
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Bisi.png" width="128" height="128">
+   </div>
+   <h4>Aplicación Tres, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1> Tipos</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Bicicletas de Montaña (MTB)</h2>
+    
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/bici.jpg',1)"><img src="imagenes/montana.jpg" width="640" height="480" id="Image21"></a>
+  
+     <p> Las bicicletas de montaña (también conocidas como MTB) están diseñadas para “fuera de ruta” por lo que son bastante resistentes. Están equipadas con llantas anchas con dibujos marcados para mejorar el agarre en terrenos sueltos. Regularmente usan manubrios rectos o de doble altura.
+       Las MTB se pueden encontrar sin suspensión (rígidas), con suspensión delantera (hardtail) o con doble suspensión (full-suspension) dependiendo de su especialidad:
+       Cross country
+       Enduro
+       Downhill
+      Freeride  </p>
+      <h2> Bicicletas de Ruta  </h2>
+      
+ <img src="imagenes/ruta.jpg" width="640" height="480">
+ 
+      <p>Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta, están dotadas con ruedas más grandes, delgadas y provistas de llantas angostas y con dibujo liso. Las bicis de ruta utilizan manubrios drop-bar para lograr una postura más aerodinámica. </p>
+      
+      <h2> Bicicletas Híbridas </h2>
+
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/hibrida.jpg',1)"><img src="imagenes/bici5.jpg" width="640" height="426" id="Image20"></a></p>
+      
+      <p>Las bicicletas híbridas son bastante versátiles ya que combinan características de las bicis de montaña y de las de ruta.Estas bicicletas nacieron como una solución para quienes necesitan una bicicleta para la ciudad, pero que tenga la flexibilidad de ser usada en diferentes terrenos. Los cuadros son resistentes y con una geometría que permite adoptar una posición cómoda que permite relajar los brazos y el cuello.</p>
+      
+      <h2> MBX </h2>
+      
+ <img src="imagenes/MBX.jpg" width="640" height="480">
+ 
+       <p>Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias. Existen diferentes variables de estas bicicletas, algunas con llantas anchas para usarse en terrenos sueltos y otras con llantas un poco más delgadas y lisas para usarse en rampas o en la calle. Estas bicicletas no son eficientes como medio de transporte.</p>
+       
+       <h2> Touring </h2> 
+       
+  <img src="imagenes/touring.jpg" width="640" height="480">
+  
+        <p>Estas bicicletas se usan para recorrer largas distancias y cargar peso. Sus cuadros son muy robustos e incluyen monturas para instalar rack trasero y delantero además de varias caramañolas. Aunque la gran mayoría de estas bicicletas utilizan drop-bars también son comunes los manubrios de trekking, rectos y de doble altura, dependiendo del tipo de viaje que se vaya a realizar.
+Tienen un gran rango de velocidades: suficientemente bajas que facilitan subir pendientes bastante pronunciadas al estar completamente cargadas y velocidades altas para mantener la velocidad aun en las bajadas. Están equipadas con frenos potentes, generalmente frenos de disco o cantilever (los tradicionales).Los rodados comunes son de 26?</p>       
+ 
+         <h2> Eléctricas</h2>
+         
+  <img src="imagenes/electricas.jpg" width="640" height="480">
+ 
+        <p> En la actualidad se puede encontar versiones de pedaleo asistido (eléctricas) de casi cualquier tipo de bicicleta. Las bicicletas eléctricas son todas aquellas bicis que utilizan un motor para asistir el pedaleo. Su principal ventaja es a la hora de subir pendientes, pedalear contra el viento (hay lugares donde el viento es muy intenso) o para quien tiene que pedalear largas distancias para ir al trabajo y quiere reducir el esfuerzo. Por otro lado estas bicis son más costosas y pesadas que el resto. </p>
+ 
+       <h2>Fat Bikes</h2>
+       
+   <img src="imagenes/bike.jpg" width="640" height="480">
+        
+        <p>Son de reciente aparición y su uso principal es sobre terrenos con nieve o arena, grandes piedras, raíces, et. La principal característica de estas bicicletas son sus llantas rodado 26? sumamente anchas (normalmente de entre 3 y 3.6 pulgadas). La geometría de su cuadro es muy similar a una bicicleta de montaña con la diferencia de que usa tijera/horquilla y vainas con holgura adecuada para las ruedas gordas. Estas bicis están equipadas con velocidades múltiples y frenos de disco.</p>
+       
+       
+       
+       
+       
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Bisi.png" width="128" height="128">
+   </div>
+   <h4>Aplicación Tres, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>5 marcas de bicicletas</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>1.Scott Spark RC 900 Worldcup - schurter</h2>
+      <img src="imagenes/bici1.jpg" width="640" height="364">
+      <br>
+    <h3>Se trata de la bicicleta del campeon de la copa del mundo 2017 Nino Schurter <h3>
+    
+    <h2>2. Bianchi Methanol CV-Stepane Tempier</h2>
+    <img src="imagenes/bici2.jpeg" width="640" height="458">
+    <br>
+    <h3> La bicicleta del sub campeon de la copa del mundo de MTB, Stephane Tempier <h3>
+    
+    <h2> 3.Cannondale Scalpel.Si Team-Maxime Marotte</h2>
+    
+    <img src="imagenes/bici3.jpg" width="640" height="376">
+    <br>
+    <h3> Este ha sido el primer año de Marotte en Cannondale <h3>
+    
+    <h2> 4. MMR Kenta 29 – David Valero </h2>
+    <img src="imagenes/bici.jpg" width="640" height="480">
+    <br>
+    <h3> Se trata de la bicicleta española mejor situada en la clasificacion de la presente temporada dentro de la copa del mundo y llevada ademas por el mejor ciclista español de este año, David Valero <h3>
+    
+    
+    <h2> 5. BH Lynx Race – Jordan Sarrou</h2>
+    <img src="imagenes/bici5.jpg" width="640" height="426">
+    <br>
+    <h3> Tras un desarrollo exhaustivo durante la temporada pasada aquí llega una de las bicicletas más deseadas por parte del público español <h3>
+
+    
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Bisi.png" width="128" height="128">
+   </div>
+   <h4>Aplicación Tres, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Dia mundial </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Razon por la que se celebra el 19 de Abril </h2>
+    <img src="imagenes/dia.jpg" width="800" height="650">
+    <br>
+    <h3> El Día Mundial de la Bicicleta o Día de la Bicicleta se celebra en todo el mundo cada 19 de abril con la finalidad de promover el uso de este medio de transporte, llamar la atención sobre los derechos de los ciclistas y destacar sus beneficios para la salud y para la movilidad sostenible. La fecha hace referencia al 19 de abril de 1943, cuando Albert Hofmann, conocido como «el padre del LSD», realizaba en su laboratorio un autoexperimeto con una sustancia para determinar sus efectos psicotrópicos, tras el cual su regreso a casa en bicicleta se tornaría famoso.</h3>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="imagenes/Bisi.png" width="128" height="128">
+   </div>
+   <h4>Aplicación Tres., OMP</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+
+ 
